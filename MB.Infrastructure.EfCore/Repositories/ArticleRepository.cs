@@ -19,7 +19,17 @@ namespace MB.Infrastructure.EfCore.Repositories
         public void CreateAndSave(Article entity)
         {
             _context.Articles.Add(entity);
+           Save();
+        }
+
+        public void Save()
+        {
             _context.SaveChanges();
+        }
+
+        public Article Get(long id)
+        {
+           return _context.Articles.FirstOrDefault(x => x.Id == id);
         }
 
         public List<ArticleViewModel> GetList()

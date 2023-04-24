@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Reflection.Metadata;
 using MB.Domain.ArticleCategoryAgg;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MB.Domain.ArticleAgg
 {
@@ -29,6 +31,15 @@ namespace MB.Domain.ArticleAgg
             ArticleCategoryId = articleCategoryId;
             IsDeleted = false;
             CreationDate = DateTime.Now;
+        }
+
+        public void Edit(string title, string shortDescription, string image, string content, long articleCategoryId)
+        {
+            Title = title;
+            ShortDescription = shortDescription;
+            Image = image;
+            Content = content;
+            ArticleCategoryId = articleCategoryId;
         }
     }
 }

@@ -5,7 +5,9 @@ namespace MB.Domain.ArticleAgg
 {
     public interface IArticleRepository
     {
-        void CreateAndSave(Article entity);
+        Article Get(long id);
         List<ArticleViewModel> GetList();
+        void CreateAndSave(Article entity);
+        void Save();
     }
 }
