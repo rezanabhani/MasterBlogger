@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using MB.Application.Contracts.Article;
 
 namespace MB.Domain.ArticleAgg
 {
-    internal class IArticleRepository
+    public interface IArticleRepository
     {
+        List<ArticleViewModel> GetList();
     }
 }
