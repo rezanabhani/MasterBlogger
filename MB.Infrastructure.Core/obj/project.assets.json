@@ -1768,6 +1768,19 @@
         "runtime": {
           "bin/placeholder/MB.Infrastructure.EfCore.dll": {}
         }
+      },
+      "MB.Infrastructure.Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MB.Infrastructure.EfCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MB.Infrastructure.Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Infrastructure.Query.dll": {}
+        }
       }
     }
   },
@@ -6000,6 +6013,11 @@
       "type": "project",
       "path": "../MB.Infrastructure.EfCore/MB.Infrastructure.EfCore.csproj",
       "msbuildProject": "../MB.Infrastructure.EfCore/MB.Infrastructure.EfCore.csproj"
+    },
+    "MB.Infrastructure.Query/1.0.0": {
+      "type": "project",
+      "path": "../MB.Infrastructure.Query/MB.Infrastructure.Query.csproj",
+      "msbuildProject": "../MB.Infrastructure.Query/MB.Infrastructure.Query.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6008,6 +6026,7 @@
       "MB.Application.Contracts >= 1.0.0",
       "MB.Domain >= 1.0.0",
       "MB.Infrastructure.EfCore >= 1.0.0",
+      "MB.Infrastructure.Query >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.0"
     ]
   },
@@ -6049,6 +6068,9 @@
             },
             "C:\\Users\\r\\Desktop\\dotnet\\MasterBlogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj": {
               "projectPath": "C:\\Users\\r\\Desktop\\dotnet\\MasterBlogger\\MB.Infrastructure.EfCore\\MB.Infrastructure.EfCore.csproj"
+            },
+            "C:\\Users\\r\\Desktop\\dotnet\\MasterBlogger\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj": {
+              "projectPath": "C:\\Users\\r\\Desktop\\dotnet\\MasterBlogger\\MB.Infrastructure.Query\\MB.Infrastructure.Query.csproj"
             }
           }
         }

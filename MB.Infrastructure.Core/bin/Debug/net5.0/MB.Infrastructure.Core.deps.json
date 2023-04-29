@@ -12,6 +12,7 @@
           "MB.Application.Contracts": "1.0.0",
           "MB.Domain": "1.0.0",
           "MB.Infrastructure.EfCore": "1.0.0",
+          "MB.Infrastructure.Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.0"
         },
         "runtime": {
@@ -1066,6 +1067,14 @@
         "runtime": {
           "MB.Infrastructure.EfCore.dll": {}
         }
+      },
+      "MB.Infrastructure.Query/1.0.0": {
+        "dependencies": {
+          "MB.Infrastructure.EfCore": "1.0.0"
+        },
+        "runtime": {
+          "MB.Infrastructure.Query.dll": {}
+        }
       }
     }
   },
@@ -1749,6 +1758,11 @@
       "sha512": ""
     },
     "MB.Infrastructure.EfCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MB.Infrastructure.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
