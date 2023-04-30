@@ -96,3 +96,4 @@ C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net5.0
 C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\Edit.cshtml.g.cs
 C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.Query.dll
 C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Presentation.MVCCore\bin\Debug\net5.0\MB.Infrastructure.Query.pdb
+C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Presentation.MVCCore\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\CommentManagement\List.cshtml.g.cs
