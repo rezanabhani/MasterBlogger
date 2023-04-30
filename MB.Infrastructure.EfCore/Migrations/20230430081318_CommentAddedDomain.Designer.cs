@@ -4,14 +4,16 @@ using MB.Infrastructure.EfCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MB.Infrastructure.EfCore.Migrations
 {
     [DbContext(typeof(MasterBloggerContext))]
-    partial class MasterBloggerContextModelSnapshot : ModelSnapshot
+    [Migration("20230430081318_CommentAddedDomain")]
+    partial class CommentAddedDomain
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

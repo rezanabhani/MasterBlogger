@@ -12,5 +12,10 @@ namespace MB.Infrastructure.EfCore.Repositories
         }
 
 
+        public void CreateAndSave(Comment entity)
+        {
+            _context.Comments.Add(entity);
+            _context.SaveChanges();
+        }
     }
 }
