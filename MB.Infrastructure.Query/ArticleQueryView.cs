@@ -1,4 +1,6 @@
-﻿namespace MB.Infrastructure.Query
+﻿using System.Collections.Generic;
+
+namespace MB.Infrastructure.Query
 {
     public class ArticleQueryView
     {
@@ -9,6 +11,8 @@
         public string ArticleCategory { get; set; }
         public string CreationDate { get; set; }
         public string Content { get; set; }
+        public long CommentsCount { get; set; }
+        public List<CommentQueryView> Comments { get; set; }
 
     }
 }
