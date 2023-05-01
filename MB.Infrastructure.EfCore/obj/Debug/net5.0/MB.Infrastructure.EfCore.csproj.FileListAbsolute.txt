@@ -18,3 +18,5 @@ C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Infrastructure.EfCore\obj\Debug\net5.
 C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Infrastructure.EfCore\obj\Debug\net5.0\ref\MB.Infrastructure.EfCore.dll
 C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Infrastructure.EfCore\bin\Debug\net5.0\MB.Application.Contracts.dll
 C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Infrastructure.EfCore\bin\Debug\net5.0\MB.Application.Contracts.pdb
+C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Infrastructure.EfCore\bin\Debug\net5.0\01_Framework.dll
+C:\Users\r\Desktop\dotnet\MasterBlogger\MB.Infrastructure.EfCore\bin\Debug\net5.0\01_Framework.pdb

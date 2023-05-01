@@ -36,7 +36,9 @@ namespace MB.Infrastructure.Query
 
         public ArticleQueryView GetArticle(long id)
         {
-            return _context.Articles.Include(x => x.ArticleCategory).Select(x => new ArticleQueryView()
+            return _context.Articles
+                .Include(x => x.ArticleCategory)
+                .Select(x => new ArticleQueryView()
             {
                 Id = x.Id,
                 Title = x.Title,
