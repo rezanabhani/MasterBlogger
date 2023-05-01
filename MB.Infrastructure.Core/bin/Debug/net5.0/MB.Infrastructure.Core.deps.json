@@ -1038,6 +1038,9 @@
         }
       },
       "01_Framework/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0"
+        },
         "runtime": {
           "01_Framework.dll": {}
         }
